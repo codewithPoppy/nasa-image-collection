@@ -1,0 +1,26 @@
+/* Show page styles */
+
+.show {
+  padding: 20px;
+
+  .ant-row {
+    margin-top: 20px;
+  }
+
+  .ant-col {
+    padding: 20px;
+
+    &:first-child {
+      border-right: 1px solid #ccc;
+    }
+  }
+
+  .ant-card-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .ant-card-body {
+    font-size: 16px;
+  }
+}
